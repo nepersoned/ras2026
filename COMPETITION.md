@@ -92,6 +92,34 @@ Final Score = Tier Score + Normalized Stress Score refinement
 - **Sample solution fails C8** (mixes Coal+Grain in same block); our solution beats it on stress score
 - **v1.1 rule**: zero/negative volume sequence rows are rejected (relevant for 0.5× scaling)
 
+## Competition Rules (Key Points)
+
+### Submission Limits
+- **하루 최대 50회** 제출 가능
+- 최종 제출은 **1개** 선택
+
+### Team
+- 최대 5인
+- 팀 머지 가능 (마감 전)
+
+### Data
+- 대회 참가자만 데이터 접근 가능
+- 외부 데이터 사용 가능 (공개 데이터, 합리적 비용)
+
+### Winner Obligations
+- 우승 시 코드 + 문서 제출 필요
+- 재현 가능한 코드 + 설명 포함
+- INFORMS RAS에 non-exclusive 라이선스 부여
+
+### Prize
+- 1위 $2,000 / 2위 $1,000 / 3위 $750
+- 팀 수상 시 균등 분배 (합의 시 변경 가능)
+
+### Governing Law
+- California law 적용
+
+---
+
 ## Citation
 
 Peiheng Li and Xuesong (Simon) Zhou. INFORMS RAS 2026 Problem Solving Competition.  
