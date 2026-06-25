@@ -1,0 +1,23 @@
+# Data (too large for git)
+ras_release_v1.1/
+ras_release_v1/
+informs-ras-2026-problem-solving-competition.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyc
+.env
+
+# Julia
+*.ji
+*.so
+*.dylib
+Manifest.toml
+
+# Models & results (large)
+julia_solver/models/*.bson
+julia_solver/results/*.json
+
+# Misc
+.DS_Store
