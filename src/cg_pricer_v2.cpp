@@ -63,7 +63,10 @@ std::vector<NewColumn> price_full_hubs(
     int nthreads = 1;
 #ifdef _OPENMP
     #pragma omp parallel
-    { #pragma omp single nthreads = omp_get_num_threads(); }
+    {
+        #pragma omp single
+        nthreads = omp_get_num_threads();
+    }
 #endif
     std::vector<std::vector<NewColumn>> local(nthreads);
 
